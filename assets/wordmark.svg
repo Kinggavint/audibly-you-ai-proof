@@ -1,14 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 56" role="img" aria-label="Audibly You AI">
   <title>Audibly You AI</title>
+  <defs>
+    <linearGradient id="ay-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B5CFF"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
   <!-- Geometric mark: stacked sound-wave arcs forming an "A" silhouette inside a rounded square -->
   <g>
-    <rect x="2" y="6" width="44" height="44" rx="11" fill="#0B1B3D"/>
-    <path d="M14 38 Q24 14 34 38" fill="none" stroke="#2E7BFF" stroke-width="3" stroke-linecap="round"/>
-    <path d="M18 38 Q24 22 30 38" fill="none" stroke="#7DABFF" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
-    <circle cx="24" cy="38" r="2.4" fill="#FF6B5B"/>
+    <rect x="2" y="6" width="44" height="44" rx="11" fill="url(#ay-grad)"/>
+    <path d="M14 38 Q24 14 34 38" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 38 Q24 22 30 38" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="24" cy="38" r="2.4" fill="#ffffff"/>
   </g>
   <!-- Wordmark -->
-  <g font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="22" fill="#0B1B3D" letter-spacing="-0.5">
-    <text x="58" y="36">Audibly You<tspan fill="#2E7BFF" font-weight="800"> AI</tspan></text>
+  <g font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="22" fill="#0F1729" letter-spacing="-0.5">
+    <text x="58" y="36">Audibly You<tspan fill="url(#ay-grad)" font-weight="800"> AI</tspan></text>
   </g>
 </svg>
